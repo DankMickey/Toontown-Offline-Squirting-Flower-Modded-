@@ -1,0 +1,127 @@
+[26-May-2014 19:41:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home4/ttinf/public_html/api/login/index.php on line 65
+[26-May-2014 19:42:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home4/ttinf/public_html/api/login/index.php on line 65
+[26-May-2014 19:42:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home4/ttinf/public_html/api/login/index.php on line 64
+[26-May-2014 19:43:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home4/ttinf/public_html/api/login/index.php on line 64
+[26-May-2014 19:44:47 America/Chicago] PHP Fatal error:  Call to undefined function base64() in /home4/ttinf/public_html/api/login/index.php on line 72
+[26-May-2014 19:46:06 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home4/ttinf/public_html/api/login/index.php on line 83
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit x in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit * in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit ! in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit r in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit t in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit H in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit T in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit h in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit t in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit U in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit x in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit &amp; in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit T in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit $ in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit W in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit K in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit # in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit _ in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:11:22 America/Chicago] PHP Warning:  mcrypt_encrypt(): Attempt to use an empty IV, which is NOT recommend in /home4/ttinf/public_html/api/login/index.php on line 73
+[26-May-2014 21:18:22 America/Chicago] PHP Fatal error:  Call to undefined function oack() in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit g in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit t in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit h in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit z in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit r in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit j in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit P in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit h in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit v in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit T in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit h in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit Z in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit s in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit w in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit T in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:18:33 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit X in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:19:09 America/Chicago] PHP Warning:  pack(): Type h: illegal hex digit g in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit q in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit l in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit k in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit r in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit j in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit l in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit n in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit z in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit y in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit j in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit q in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit j in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit z in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit i in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit w in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit y in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit v in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit n in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit o in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit g in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit i in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:24:45 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit q in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:47:30 America/Chicago] PHP Warning:  mcrypt_encrypt(): Module initialization failed in /home4/ttinf/public_html/api/login/index.php on line 75
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit R in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit U in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit p in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit t in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit r in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit t in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit H in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit z in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit x in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit r in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit r in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit R in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit U in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit s in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit t in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit v in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:21 America/Chicago] PHP Warning:  mcrypt_encrypt(): Module initialization failed in /home4/ttinf/public_html/api/login/index.php on line 75
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit R in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit U in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit p in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit t in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit r in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit t in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit H in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit z in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit x in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit r in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit r in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit R in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit U in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit s in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit t in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit u in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  pack(): Type H: illegal hex digit v in /home4/ttinf/public_html/api/login/index.php on line 71
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  mcrypt_get_iv_size(): Module initialization failed in /home4/ttinf/public_html/api/login/index.php on line 72
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  mcrypt_create_iv(): Cannot create an IV with a size of less than 1 or greater than 2147483647 in /home4/ttinf/public_html/api/login/index.php on line 73
+[26-May-2014 21:48:46 America/Chicago] PHP Warning:  mcrypt_encrypt(): Module initialization failed in /home4/ttinf/public_html/api/login/index.php on line 75
+[28-May-2014 20:18:28 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home4/ttinf/public_html/api/login/index.php on line 86
+[28-May-2014 20:18:43 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home4/ttinf/public_html/api/login/index.php on line 86
+[28-May-2014 20:19:37 America/Chicago] PHP Warning:  mcrypt_encrypt(): Module initialization failed in /home4/ttinf/public_html/api/login/index.php on line 73
+[28-May-2014 20:20:39 America/Chicago] PHP Warning:  mcrypt_encrypt(): Attempt to use an empty IV, which is NOT recommend in /home4/ttinf/public_html/api/login/index.php on line 73
+[28-May-2014 20:20:44 America/Chicago] PHP Warning:  mcrypt_encrypt(): Attempt to use an empty IV, which is NOT recommend in /home4/ttinf/public_html/api/login/index.php on line 73
+[28-May-2014 20:34:46 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/ttinf/public_html/api/login/index.php on line 72
+[28-May-2014 20:35:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'time' (T_STRING) in /home4/ttinf/public_html/api/login/index.php on line 72
+[28-May-2014 20:35:22 America/Chicago] PHP Parse error:  syntax error, unexpected ''time()'' (T_CONSTANT_ENCAPSED_STRING) in /home4/ttinf/public_html/api/login/index.php on line 72
+[28-May-2014 20:35:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$TIME' (T_VARIABLE) in /home4/ttinf/public_html/api/login/index.php on line 73
+[28-May-2014 20:36:08 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/ttinf/public_html/api/login/index.php on line 73
+[28-May-2014 20:57:57 America/Chicago] PHP Parse error:  syntax error, unexpected ''|accesslevel='' (T_CONSTANT_ENCAPSED_STRING) in /home4/ttinf/public_html/api/login/index.php on line 73
+[29-May-2014 02:40:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'iv_size' (T_STRING) in /home4/ttinf/public_html/api/login/index.php on line 80
+[29-May-2014 02:46:05 America/Chicago] PHP Warning:  mcrypt_encrypt(): The IV parameter must be as long as the blocksize in /home4/ttinf/public_html/api/login/index.php on line 75

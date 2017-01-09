@@ -1,0 +1,16 @@
+id: 100000033
+class: DistributedHouse
+fields:
+  setName: ("Delete AFTER creating your first toon")
+  setInteriorInitialized: (1)
+  setAtticWindows: (<0000>)
+  setGardenPos: (0)
+  setAvatarId: (100000031)
+  setAtticWallpaper: (<0000>)
+  setInteriorWallpaper: (<09000805004c0400e80300>)
+  setAtticItems: (<0000>)
+  setColor: (5)
+  setInteriorItems: (<aa00080114ffa200000040000000c800011effdb00000040000000f4010131ff4000f6ff5500000014050135ff4400000060000000fc030144ff7eff00004000000090010142ff33ff00004000000064000144ffc2ff0000400000006400019cffa000000040000000f20301dfffe0000000c0000000bc0201000088ff000040000000e8030100001aff000080000000c602012c00fbff000000000000bc0201000000000000000000007705>)
+  setInteriorWindows: (<05000806000014>)
+  setDeletedItems: (<0000>)
+  setHouseType: (0)

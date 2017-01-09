@@ -1,0 +1,10 @@
+Hi! Heres how to install Bman's Launcher for Toontown Offline v2 Beta 1.
+
+1. Move your whole ttoff-beta1-windows folder to C:\ (of course, this launcher is only for windows :P)
+2. Move ToontownOfflineLauncher.exe in the zip included to the scripts folder in your toontown offline folder
+3. Copy "Minnie.TTF" and paste it into C:\Windows\Fonts
+4. Run ToontownOfflineLauncher.exe (and make a shortcut to it on your desktop if you want :D)
+
+NOTE: All the launcher has right now is buttons to launch astron, uberdog, ai, and the client, you can not type a username in it
+currently, but i will add that when i figure out how to.
+

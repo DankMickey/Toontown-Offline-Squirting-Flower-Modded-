@@ -1,0 +1,21 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Injector Opened
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt-beta-v.1.0.1 (Squirting Flower)
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x19CED698>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+frame rate: 41.5 fps|0.006d|0 avs||341|342||0x10de|0x0847|419.9MB|406.0MB|7935.2MB|533|nt.2.6.1|2.800,2.800|4,4 cpus|OpenGL
+ignoring InputState-forward

@@ -1,0 +1,10 @@
+id: 100000007
+class: Account
+fields:
+  CREATED: "\"Sun Jun 22 22:24:29 2014\""
+  LAST_LOGIN: "\"Sun Jun 22 22:24:29 2014\""
+  ACCOUNT_ID: "\"Ziggy\""
+  ACCESS_LEVEL: 0
+  ACCOUNT_AV_SET: "[0, 100000008, 0, 0, 0, 0]"
+  ESTATE_ID: 0
+  ACCOUNT_AV_SET_DEL: "[]"

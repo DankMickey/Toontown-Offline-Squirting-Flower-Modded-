@@ -1,0 +1,94 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Injector Opened
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt-beta-v.1.0.1 (Squirting Flower)
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x17D77E68>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Battle Event localtoon-battle-event-3
+chooseFireOpenShot <function avatarBehindShot at 0x13AFFF70>
+chooseFireOpenShot <function avatarCloseUpFireShot at 0x13B033F0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.
+entering active SC menu
+Battle Event localtoon-battle-event-9
+frame rate: 66.1 fps|0.014d|43 avs||365|368||0x10de|0x1040|434.1MB|405.2MB|6126.5MB|451|nt.2.6.2|2.801,2.801|4,4 cpus|OpenGL
+entering active SC menu
+Reading DNA file... phase_8/dna/storage_DG.dna
+Reading DNA file... phase_8/dna/storage_DG_sz.dna
+Reading DNA file... phase_8/dna/daisys_garden_sz.dna
+fisherman origin:  render/loader_data/daisysGarden/fishing_pond_1/npc_fisherman_origin_0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+spec = {'parentEntId': 10014, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-16
+frame rate: 82.5 fps|0.008d|3 avs||665|668||0x10de|0x1040|511.2MB|482.5MB|6126.5MB|491|nt.2.6.2|2.801,2.801|4,4 cpus|OpenGL
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+doors enter state 1
+openInnerDoors
+openInnerDoors
+openInnerDoors stage Two
+spec = {'parentEntId': 10068, 'pos': LPoint3f(-20, -10, 0)}
+h = None
+Battle Event localtoon-battle-event-22
+### newVec3 =  LVector3f(1.52588e-005, 6, 1.5)
+### newVec3 =  LVector3f(1.52588e-005, 6, 0)
+### newVec3 =  LVector3f(1.52588e-005, 6, 0.375)
+### newVec3 =  LVector3f(1.52588e-005, 6, 0)
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_8/dna/storage_BR.dna
+Reading DNA file... phase_8/dna/storage_BR_sz.dna
+Reading DNA file... phase_8/dna/the_burrrgh_sz.dna
+empty flat building with no walls
+DNALandmarkBuilding sb11:toon_landmark_BR_pet_shop_DNARoot did not find **/*suit_building_origin
+fisherman origin:  render/loader_data/theBurrrgh/fishing_pond_1/npc_fisherman_origin_0
+frame rate: 42.5 fps|0.026d|4 avs||967|970||0x10de|0x1040|537.8MB|510.0MB|6126.5MB|511|nt.2.6.2|2.801,2.801|4,4 cpus|OpenGL
+Reading DNA file... phase_5/dna/storage_town.dna
+Reading DNA file... phase_8/dna/storage_BR_town.dna
+Reading DNA file... phase_8/dna/the_burrrgh_3300.dna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 55.4 fps|0.017d|7 avs||1267|1270||0x10de|0x1040|577.7MB|549.5MB|6126.5MB|531|nt.2.6.2|2.801,2.801|4,4 cpus|OpenGL
+ignoring InputState-forward

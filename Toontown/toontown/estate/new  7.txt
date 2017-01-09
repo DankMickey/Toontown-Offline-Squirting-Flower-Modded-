@@ -1,0 +1,9 @@
+
+        self.trolley = self.placebldg("data/models/TTC/trolleyTT.bam", (83,-118,0.4), 218.5)
+        
+        trolleyNp = self.trolley.find('**/trolley_sphere')
+        trolleyNode = trolleyNp.node()
+        trolleyNode.setCollideMask(BitMask32(8))
+        
+        self.collDict = self.collDict if hasattr(self,"collDict") else {}
+        self.collDict[trolleyNode] = self.enterTrolley

@@ -1,0 +1,33 @@
+base.localAvatar.putOnSuit('tbc'­) - BIG CHEESE COG
+base.localAvatar.putOnSuit('mh') - MR. HOLLYWOOD
+base.localAvatar.putOnSuit('ls') - LOAN SHARK
+base.localAvatar.putOnSuit('dt') - Double-Talker
+base.localAvatar.putOnSuit('ms') - Mover & Shaker
+base.localAvatar.putOnSuit('m') - MINGLER
+base.localAvatar.putOnSuit('f') - Flunky
+base.localAvatar.putOnSuit('tf') - Two-Face
+base.localAvatar.putOnSuit('sc') - Short Change
+base.localAvatar.putOnSuit('tm') - TELEMARKETER
+base.localAvatar.putOnSuit('rb') - Robber Barron
+base.localAvatar.putOnSuit('cc') - COLD CALLER
+base.localAvatar.putOnSuit('bf') - BOTTOM FEEDER
+base.localAvatar.putOnSuit('b') - BLOOD SUCKER
+base.localAvatar.putOnSuit('ym') - YESMAN
+base.localAvatar.putOnSuit('cr') - CORPORATE RAIDER
+base.localAvatar.putOnSuit('bw') - BIG WIG
+base.localAvatar.putOnSuit('sd') - SPIN DOCTOR
+base.localAvatar.putOnSuit('hh') - HEAD HUNTER
+base.localAvatar.putOnSuit('nc') - NUMBER CRUNCHER
+base.localAvatar.putOnSuit('le') - LEGAL EAGLE
+base.localAvatar.putOnSuit('mb') - MONEYBAG
+base.localAvatar.putOnSuit('nd') - NAME DROPPER
+base.localAvatar.putOnSuit('bc') - Bean Counter
+base.localAvatar.putOnSuit('ac') - Ambulane Chaser
+base.localAvatar.putOnSuit('tw') - TIGHTWAD
+base.localAvatar.putOnSuit('gh') - GLAD HANDER
+base.localAvatar.putOnSuit('pp') - Penny Pincher
+base.localAvatar.putOnSuit('mm') - MICROMANGER
+base.localAvatar.putOnSuit('p') - Pencil Pusher
+base.localAvatar.putOnSuit('ds') - Downsizer
+
+note: to turn off, type any word NOT related to a suit.

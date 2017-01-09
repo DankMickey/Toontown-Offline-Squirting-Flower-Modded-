@@ -1,0 +1,16 @@
+id: 100000038
+class: DistributedHouse
+fields:
+  setAtticWallpaper: (<0000>)
+  setAvatarId: (100000036)
+  setInteriorInitialized: (1)
+  setInteriorWallpaper: (<09000805004c0400e80300>)
+  setHouseType: (0)
+  setInteriorWindows: (<05000806000014>)
+  setName: ("Logano")
+  setColor: (1)
+  setAtticItems: (<0000>)
+  setGardenPos: (0)
+  setInteriorItems: (<90000801b9ffbf000000ab000000fc030178ff0601000000000000c800013dfff700000000000000f4010129ff3a0000005500000014050131ff4100000060000000fc030138ff9cff000040000000900101e6ffd5000000cb000000640001c0fff6000000f500000064000111ffa900000040000000640001e3ff8fff000080000000f20301000000000000000000007705>)
+  setAtticWindows: (<0000>)
+  setDeletedItems: (<0000>)

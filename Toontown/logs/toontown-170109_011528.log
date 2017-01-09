@@ -1,0 +1,186 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Injector Opened
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt-beta-v.1.0.1 (Squirting Flower)
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x227B7FD0>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Reading DNA file... phase_4/dna/storage_TT.dna
+Reading DNA file... phase_4/dna/storage_TT_sz.dna
+Reading DNA file... phase_4/dna/toontown_central_sz.dna
+fisherman origin:  render/loader_data/toontownCentral/fishing_pond_1/npc_fisherman_origin_0
+Reading DNA file... phase_5/dna/storage_town.dna
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\python\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.9.0\python\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1873, in handleDatagram
+    self.handler(msgType, di)
+  File "toontown\hood\QuietZoneState.py", line 152, in handleWaitForQuietZoneResponse
+    base.cr.handlePlayGame(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1488, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1773, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp\distributed\OTPClientRepository.py", line 1794, in gotInterestDoneMessage
+    self.handleInterestDoneMessage(di)
+  File "C:\Panda3D-1.9.0\python\direct\distributed\DoInterestManager.py", line 618, in handleInterestDoneMessage
+    messenger.send(event)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\distributed\ToontownClientRepository.py", line 991, in _handleEmuSetZoneDone
+    messenger.send(event)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\hood\QuietZoneState.py", line 195, in _handleQuietZoneComplete
+    self.fsm.request('waitForZoneRedirect')
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown\hood\QuietZoneState.py", line 236, in enterWaitForZoneRedirect
+    self.fsm.request('waitForSetZoneResponse')
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown\hood\QuietZoneState.py", line 255, in enterWaitForSetZoneResponse
+    messenger.send(self.getEnterWaitForSetZoneResponseMsg(), [self._requestStatus])
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\hood\Hood.py", line 172, in handleWaitForSetZoneResponse
+    self.loadLoader(requestStatus)
+  File "toontown\hood\ToonHood.py", line 62, in loadLoader
+    self.loader.load(requestStatus['zoneId'])
+  File "toontown\town\TTTownLoader.py", line 18, in load
+    self.createHood(dnaFile)
+  File "toontown\town\TownLoader.py", line 196, in createHood
+    loader.loadDNAFile(self.hood.dnaStore, 'phase_5/dna/storage_town.dna')
+  File "toontown\toonbase\ToontownLoader.py", line 23, in loadDNAFile
+    return loadDNAFile(dnastore, filename)
+  File "toontown\dna\DNAParser.py", line 2377, in loadDNAFile
+    dnaloader.getData().read(open(filename, 'r'))
+  File "toontown\dna\DNAParser.py", line 648, in read
+    parser.parse(stream.read())
+  File "toontown\dna\ply\yacc.py", line 265, in parse
+    return self.parseopt_notrack(input,lexer,debug,tracking,tokenfunc)
+  File "toontown\dna\ply\yacc.py", line 971, in parseopt_notrack
+    p.callable(pslice)
+  File "toontown\dna\DNAParser.py", line 2295, in p_modeldef
+    p.parser.nodePath = base.loader.loadModel(filename)
+  File "toontown\toonbase\ToontownLoader.py", line 72, in loadModel
+    ret = Loader.Loader.loadModel(self, *args, **kw)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Loader.py", line 170, in loadModel
+    raise IOError, message
+IOError: Could not load model file(s): [phase_4/models/modules/suit_landmark_board.bam]
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 239, in run
+    taskMgr.run()
+  File "C:\Panda3D-1.9.0\python\direct\task\Task.py", line 502, in run
+    self.step()
+  File "C:\Panda3D-1.9.0\python\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.9.0\python\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.9.0\python\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1873, in handleDatagram
+    self.handler(msgType, di)
+  File "toontown\hood\QuietZoneState.py", line 152, in handleWaitForQuietZoneResponse
+    base.cr.handlePlayGame(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1488, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1773, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp\distributed\OTPClientRepository.py", line 1794, in gotInterestDoneMessage
+    self.handleInterestDoneMessage(di)
+  File "C:\Panda3D-1.9.0\python\direct\distributed\DoInterestManager.py", line 618, in handleInterestDoneMessage
+    messenger.send(event)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\distributed\ToontownClientRepository.py", line 991, in _handleEmuSetZoneDone
+    messenger.send(event)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\hood\QuietZoneState.py", line 195, in _handleQuietZoneComplete
+    self.fsm.request('waitForZoneRedirect')
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown\hood\QuietZoneState.py", line 236, in enterWaitForZoneRedirect
+    self.fsm.request('waitForSetZoneResponse')
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.9.0\python\direct\fsm\State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown\hood\QuietZoneState.py", line 255, in enterWaitForSetZoneResponse
+    messenger.send(self.getEnterWaitForSetZoneResponseMsg(), [self._requestStatus])
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\hood\Hood.py", line 172, in handleWaitForSetZoneResponse
+    self.loadLoader(requestStatus)
+  File "toontown\hood\ToonHood.py", line 62, in loadLoader
+    self.loader.load(requestStatus['zoneId'])
+  File "toontown\town\TTTownLoader.py", line 18, in load
+    self.createHood(dnaFile)
+  File "toontown\town\TownLoader.py", line 196, in createHood
+    loader.loadDNAFile(self.hood.dnaStore, 'phase_5/dna/storage_town.dna')
+  File "toontown\toonbase\ToontownLoader.py", line 23, in loadDNAFile
+    return loadDNAFile(dnastore, filename)
+  File "toontown\dna\DNAParser.py", line 2377, in loadDNAFile
+    dnaloader.getData().read(open(filename, 'r'))
+  File "toontown\dna\DNAParser.py", line 648, in read
+    parser.parse(stream.read())
+  File "toontown\dna\ply\yacc.py", line 265, in parse
+    return self.parseopt_notrack(input,lexer,debug,tracking,tokenfunc)
+  File "toontown\dna\ply\yacc.py", line 971, in parseopt_notrack
+    p.callable(pslice)
+  File "toontown\dna\DNAParser.py", line 2295, in p_modeldef
+    p.parser.nodePath = base.loader.loadModel(filename)
+  File "toontown\toonbase\ToontownLoader.py", line 72, in loadModel
+    ret = Loader.Loader.loadModel(self, *args, **kw)
+  File "C:\Panda3D-1.9.0\python\direct\showbase\Loader.py", line 170, in loadModel
+    raise IOError, message
+IOError: Could not load model file(s): [phase_4/models/modules/suit_landmark_board.bam]

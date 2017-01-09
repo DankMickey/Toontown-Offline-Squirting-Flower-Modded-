@@ -1,0 +1,76 @@
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Injector Opened
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tt-beta-v.1.0.1 (Squirting Flower)
+Preloading avatars...
+Done preloading avatars.
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1A36F710>}
+entering active SC menu
+local
+0
+Reading DNA file... phase_4/dna/storage.dna
+Reading DNA file... phase_3.5/dna/storage_interior.dna
+Battle Event localtoon-battle-event-3
+entering active SC menu
+frame rate: 39.6 fps|0.016d|33 avs||329|331||0x10de|0x0847|440.9MB|424.3MB|7935.2MB|504|nt.2.6.1|2.800,2.800|4,4 cpus|OpenGL
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1873, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1484, in handlePlayGame
+    self.handleUpdateField(di)
+  File "otp\distributed\OTPClientRepository.py", line 2191, in handleUpdateField
+    self.__doUpdate(doId, di, ovUpdated)
+  File "otp\distributed\OTPClientRepository.py", line 2199, in __doUpdate
+    do.dclass.receiveUpdate(do, di)
+  File "toontown\suit\DistributedBossCog.py", line 786, in setAttackCode
+    self.doAnimate('areaAttack', now=1)
+  File "toontown\suit\BossCog.py", line 381, in doAnimate
+    ival, changed = self.__getAnimIval(anim, raised, forward, happy)
+  File "toontown\suit\BossCog.py", line 423, in __getAnimIval
+    ival, changed = self.__doGetAnimIval(anim, raised, forward, happy)
+  File "toontown\suit\BossCog.py", line 430, in __doGetAnimIval
+    return (self.getAnim(anim), anim != None)
+  File "toontown\suit\BossCog.py", line 542, in getAnim
+    ival = Parallel(ActorInterval(self, 'Fb_jump'), Sequence(SoundInterval(self.swishSfx, duration=1.1, node=self), SoundInterval(self.boomSfx, duration=1.9)), Sequence(Wait(1.21), Func(self.announceAreaAttack)))
+AttributeError: 'DistributedSellbotBoss' object has no attribute 'boomSfx'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 239, in run
+    taskMgr.run()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1873, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1484, in handlePlayGame
+    self.handleUpdateField(di)
+  File "otp\distributed\OTPClientRepository.py", line 2191, in handleUpdateField
+    self.__doUpdate(doId, di, ovUpdated)
+  File "otp\distributed\OTPClientRepository.py", line 2199, in __doUpdate
+    do.dclass.receiveUpdate(do, di)
+  File "toontown\suit\DistributedBossCog.py", line 786, in setAttackCode
+    self.doAnimate('areaAttack', now=1)
+  File "toontown\suit\BossCog.py", line 381, in doAnimate
+    ival, changed = self.__getAnimIval(anim, raised, forward, happy)
+  File "toontown\suit\BossCog.py", line 423, in __getAnimIval
+    ival, changed = self.__doGetAnimIval(anim, raised, forward, happy)
+  File "toontown\suit\BossCog.py", line 430, in __doGetAnimIval
+    return (self.getAnim(anim), anim != None)
+  File "toontown\suit\BossCog.py", line 542, in getAnim
+    ival = Parallel(ActorInterval(self, 'Fb_jump'), Sequence(SoundInterval(self.swishSfx, duration=1.1, node=self), SoundInterval(self.boomSfx, duration=1.9)), Sequence(Wait(1.21), Func(self.announceAreaAttack)))
+AttributeError: 'DistributedSellbotBoss' object has no attribute 'boomSfx'

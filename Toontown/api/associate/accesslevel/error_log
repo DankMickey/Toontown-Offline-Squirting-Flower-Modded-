@@ -1,0 +1,19 @@
+[28-May-2014 21:38:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'getallheaders' (T_STRING), expecting '(' in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 2
+[28-May-2014 21:49:04 America/Chicago] PHP Fatal error:  Call to undefined function http_get_request_headers() in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 3
+[28-May-2014 21:51:17 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 5
+[28-May-2014 21:51:26 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 8
+[28-May-2014 22:07:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'AND' (T_LOGICAL_AND) in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 3
+[28-May-2014 22:08:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'AND' (T_LOGICAL_AND) in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 3
+[28-May-2014 22:40:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 3
+[28-May-2014 22:40:24 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 3
+[28-May-2014 22:43:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 3
+[28-May-2014 22:50:20 America/Chicago] PHP Fatal error:  Call to a member function headers() on a non-object in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 2
+[28-May-2014 22:50:43 America/Chicago] PHP Fatal error:  Call to a member function headers() on a non-object in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 2
+[28-May-2014 23:57:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'users' (T_STRING) in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 24
+[29-May-2014 00:25:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'mysqli_query' (T_STRING) in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 25
+[29-May-2014 00:26:44 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 17
+[29-May-2014 00:48:21 America/Chicago] PHP Warning:  hash_hmac() expects at most 4 parameters, 5 given in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 14
+[29-May-2014 00:48:47 America/Chicago] PHP Warning:  hash_hmac() expects at most 4 parameters, 5 given in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 14
+[29-May-2014 00:52:13 America/Chicago] PHP Parse error:  syntax error, unexpected '$signature' (T_VARIABLE) in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 15
+[29-May-2014 00:58:57 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 14
+[29-May-2014 00:59:35 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home4/ttinf/public_html/api/associate/accesslevel/index.php on line 14
