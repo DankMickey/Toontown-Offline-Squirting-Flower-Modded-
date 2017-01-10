@@ -1,21 +1,9 @@
-# Toon dbs shouldn't need to be pushed
-
 astron/databases/astrondb/*.yaml
-
-# Personal stuff
-
 backups/
 logs/
 astron/logs/
 screenshots/
-
-# PYC files shouldn't push at all now
-
 **/*.pyc
-
-# More personal stuff
 settings.json
 config/serv.prc
 toontown/toonbase/ToontownStartServ.py
-save.dat
-start_game_miniserver*.bat
