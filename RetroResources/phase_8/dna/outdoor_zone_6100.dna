@@ -1,4 +1,4 @@
-group "daisysGarden" [
+group "outdoorZone" [
  visgroup "6101" [
   vis [ "6101" ]
   group "streets" [
@@ -72,31 +72,31 @@ group "daisysGarden" [
        letters [ "P" ]
       ]
       text [
-       letters [ "l" ]
+       letters [ "L" ]
       ]
       text [
-       letters [ "a" ]
+       letters [ "A" ]
       ]
       text [
-       letters [ "y" ]
+       letters [ "Y" ]
       ]
       text [
-       letters [ "g" ]
+       letters [ "G" ]
       ]
       text [
-       letters [ "r" ]
+       letters [ "R" ]
       ]
       text [
-       letters [ "o" ]
+       letters [ "O" ]
       ]
       text [
-       letters [ "u" ]
+       letters [ "U" ]
       ]
       text [
-       letters [ "n" ]
+       letters [ "N" ]
       ]
       text [
-       letters [ "d" ]
+       letters [ "D" ]
       ]
      ]
      baseline [
@@ -142,7 +142,7 @@ group "daisysGarden" [
      ]
     ]
    ]
-   prop "linktunnel_ff_19101_DNARoot" [
+   prop "linktunnel_ff_7101_DNARoot" [
     code [ "prop_outdoor_zone_entrance" ]
     pos [ 40 -75 19.525 ]
     nhpr [ 270 0 0 ]
@@ -159,25 +159,25 @@ group "daisysGarden" [
       wiggle [ 7 ]
       stumble [ 0.1 ]
       text [
-       letters [ "B" ]
-      ]
-      text [
-       letters [ "a" ]
-      ]
-      text [
-       letters [ "r" ]
-      ]
-      text [
-       letters [ "k" ]
+       letters [ "R" ]
       ]
       text [
        letters [ "i" ]
       ]
       text [
-       letters [ "n" ]
+       letters [ "v" ]
       ]
       text [
-       letters [ "g" ]
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "r" ]
+      ]
+      text [
+       letters [ "'" ]
+      ]
+      text [
+       letters [ "s" ]
       ]
       text [
        letters [ " " ]
@@ -762,35 +762,45 @@ group "daisysGarden" [
      color [ 1 1 1 1 ]
     ]
    ]
-   prop "prop_picnic_table_OZ_DNARoot" [
+   prop "picnic_table_1_OZ_DNARoot" [
     code [ "prop_picnic_table_OZ" ]
     pos [ 38 28 20 ]
     nhpr [ -45 0 0 ]
    ]
-   prop "prop_picnic_table_OZ_DNARoot" [
-    code [ "prop_picnic_table_OZ" ]
-    pos [ 30 38 20 ]
-    nhpr [ -70 0 0 ]
+   node "prop_picnic_table_1" [
+    prop "picnic_table_1" [
+     code [ "prop_picnic_table_OZ" ]
+     pos [ 30 38 20 ]
+     nhpr [ -70 0 0 ]
+    ]
    ]
-   prop "prop_picnic_table_OZ_DNARoot" [
-    code [ "prop_picnic_table_OZ" ]
-    pos [ -30 -80 20 ]
-    nhpr [ 138 0 0 ]
+   node "prop_picnic_table_2" [
+    prop "picnic_table_2" [
+     code [ "prop_picnic_table_OZ" ]
+     pos [ -30 -80 20 ]
+     nhpr [ 138 0 0 ]
+    ]
    ]
-   prop "prop_picnic_table_OZ_DNARoot" [
-    code [ "prop_picnic_table_OZ" ]
-    pos [ -20 -90 20 ]
-    nhpr [ 110 0 0 ]
+   node "prop_picnic_table_3" [
+    prop "picnic_table_3" [
+     code [ "prop_picnic_table_OZ" ]
+     pos [ -20 -90 20 ]
+     nhpr [ 110 0 0 ]
+    ]
    ]
-   prop "prop_picnic_table_OZ_DNARoot" [
-    code [ "prop_picnic_table_OZ" ]
-    pos [ 40 -30 20 ]
-    nhpr [ 140 0 0 ]
+   node "prop_picnic_table_4" [
+    prop "picnic_table_4" [
+     code [ "prop_picnic_table_OZ" ]
+     pos [ 40 -30 20 ]
+     nhpr [ 140 0 0 ]
+    ]
    ]
-   prop "prop_picnic_table_OZ_DNARoot" [
-    code [ "prop_picnic_table_OZ" ]
-    pos [ -37 -70 20 ]
-    nhpr [ -192 0 0 ]
+   node "prop_picnic_table_5" [
+    prop "picnic_table_5" [
+     code [ "prop_picnic_table_OZ" ]
+     pos [ -37 -70 20 ]
+     nhpr [ -192 0 0 ]
+    ]
    ]
    prop "prop_trashcan_metal_DNARoot" [
     code [ "prop_trashcan_metal" ]
