@@ -104,6 +104,7 @@ GlobalStreetNames = {20000: ('to', 'on', 'Tutorial Terrace'),
  9000: ('to the', 'in the', 'Playground'),
  9100: ('to', 'on', 'Lullaby Lane'),
  9200: ('to', 'on', 'Pajama Place'),
+ 9300: ('to', 'on', 'Rock a Bye Road'),
  10000: ('to', 'in', 'Bossbot HQ Countryclub'),
  10100: ('to the', 'in the', 'Bossbot HQ Club House Frontyard'),
  10200: ('to the', 'in the', 'The Clubhouse'),
@@ -172,13 +173,13 @@ Cog = 'Cog'
 Cogs = 'Cogs'
 ACog = 'a Cog'
 TheCogs = 'The Cogs'
-ASkeleton = 'a Skeleton'
-Skeleton = 'Skeleton'
-SkeletonP = 'Skeletons'
+ASkeleton = 'a Skelecog'
+Skeleton = 'Skelecog'
+SkeletonP = 'Skelecogs'
 Av2Cog = 'a Version 2.0 Cog'
 v2Cog = 'Version 2.0 Cog'
 v2CogP = 'Version 2.0 Cogs'
-ASkeleton = 'a Skeleton'
+ASkeleton = 'a Skelecog'
 Foreman = 'Factory Foreman'
 ForemanP = 'Factory Foremen'
 AForeman = 'a Factory Foreman'

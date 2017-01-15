@@ -148,7 +148,7 @@ NAMETAG_COLORS = {
 }
 
 ARROW_COLORS = {
-    CCSuit: (0.5, 0.5, 0.5, 1.0),
+    CCSuit: (0.8, 0.4, 0.0, 1.0),
     CCNonPlayer: (1.0, 0.4, 0.0, 1.0),
     CCNoChat: (1.0, 0.4, 0.0, 1.0),
     CCSpeedChat: (0.0, 0.6, 0.2, 1.0),

@@ -32,11 +32,8 @@ class BossbotHQAI(CogHQAI.CogHQAI):
             self.createSuitPlanners()
 
     def createCogKarts(self):
-        posList = (
-            (154.762, 37.169, 0), (141.403, -81.887, 0),
-            (-48.44, 15.308, 0)
-        )
-        hprList = ((110.815, 0, 0), (61.231, 0, 0), (-105.481, 0, 0))
+        posList = ((-26.5658, 237.459, 0), (132.197, 227.845, 0), (-28.725, -235.706, 0))
+        hprList = ((-159, 0, 0), (172, 0, 0), (-21, 0, 0))
         mins = ToontownGlobals.FactoryLaffMinimums[3]
         for cogCourse in xrange(len(posList)):
             pos = posList[cogCourse]
